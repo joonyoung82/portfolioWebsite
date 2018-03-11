@@ -2,6 +2,9 @@
   "name": "portfolio_project",
   "version": "1.0.0",
   "description": "portfolio",
+  "engines":{
+    "node": "8.10.0"
+  },
   "main": "app.js",
   "dependencies": {
     "express": "^4.16.2"
