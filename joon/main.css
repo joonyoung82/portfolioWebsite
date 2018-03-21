@@ -32,7 +32,6 @@ p {
 }
 
 .intro {
-	padding: 350px 0;
 	font-size: 60px;
 	font-family: Helvetica, sans-serif;
 	color: white;
@@ -41,9 +40,10 @@ p {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 300px 0;
 }
 .intro h1 {
-	font-size: 85px;
+	font-size: 90px;
 }
 .intro h3 {
 	font-style: italic;
@@ -51,7 +51,8 @@ p {
 }
 
 .worklogo {
-	padding-top: 5%;
+	border-style: solid;
+	border-color: black;
 }
 
 .jumbotron h1{
@@ -59,7 +60,7 @@ p {
 }
 
 .logo {
-	max-width: 50%;
+	max-width: 100%;
 	height: auto;
 }
 .icons {
@@ -79,3 +80,13 @@ p {
 #heading {
 	font-size: 32px;
 }
+
+.navigation-buttons span {
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    margin-top: 6px;
+    width: 30px;
+}
+
