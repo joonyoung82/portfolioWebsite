@@ -5,16 +5,12 @@ body, html {
 	width: 100%;
 
 }
-h1{
-	font-size: 26px;
-	font-weight: bold;
-	font-family: "Droid Serif";
-}
+
 h2{
-	font-size: 22px;
+	font-size: 20px;
 }
 h3{
-	font-size: 19px;
+	font-size: 18px;
 }
 h4{
 	font-size: 15px;
@@ -65,4 +61,21 @@ p {
 .logo {
 	max-width: 50%;
 	height: auto;
+}
+.icons {
+  	position: relative;
+  	padding: 20px;
+  	width: 100%;
+}
+.icons a {
+	padding: 0 20px;
+}
+
+
+.dicon {
+	padding: 20px;	
+}
+
+#heading {
+	font-size: 32px;
 }
