@@ -7,7 +7,7 @@ body, html {
 }
 
 h2{
-	font-size: 20px;
+	font-size: 15px;
 }
 h3{
 	font-size: 18px;
@@ -63,15 +63,6 @@ p {
 	max-width: 100%;
 	height: auto;
 }
-.icons {
-  	position: relative;
-  	padding: 20px;
-  	width: 100%;
-}
-.icons a {
-	padding: 0 20px;
-}
-
 
 .dicon {
 	padding: 20px;	
@@ -88,5 +79,152 @@ p {
     height: 30px;
     margin-top: 6px;
     width: 30px;
+}
+
+.companyname {
+	font-size: 22px;
+}
+
+
+.career a:hover {
+    text-decoration:none;
+}
+
+.img {
+  border-radius: 100%;
+  display: inline-block;
+  float: center;
+  padding: 0px;
+  margin: 15px;
+  flex: 0 0 150px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.img img {
+  height: 100%;
+  display: inline-block;
+  float: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.img__overlay_github {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s;
+  z-index: 1;
+
+}
+
+.img__overlay_github:hover {
+  opacity: 1;
+
+}
+
+.img__overlay_github {
+  background-color: rgba(46,204,113,0.4);
+  background: linear-gradient(135deg, rgb(77,87,94), rgb(64,70,79));
+  color: #fafafa;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.img__overlay_email {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s;
+  z-index: 1;
+
+}
+
+.img__overlay_email:hover {
+  opacity: 1;
+}
+
+.img__overlay_email {
+  background-color: rgba(46,204,113,0.4);
+  background: linear-gradient(135deg, rgb(81,117,168), rgb(76,109,155));
+  color: #fafafa;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+
+
+.img__overlay_linkedin {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s;
+  z-index: 1;
+}
+
+.img__overlay_linkedin:hover {
+  opacity: 1;
+}
+
+.img__overlay_linkedin {
+  background-color: rgba(46,204,113,0.4);
+  background: linear-gradient(135deg, rgb(1,115,178), rgb(4,107,164));
+  color: #fafafa;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+
+
+.img__overlay_resume {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s;
+  z-index: 1;
+}
+
+.img__overlay_resume:hover {
+  opacity: 1;
+}
+
+.img__overlay_resume {
+  background-color: rgba(46,204,113,0.4);
+  background: white;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+	
 }
 
