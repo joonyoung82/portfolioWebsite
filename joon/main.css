@@ -23,12 +23,10 @@ p {
 	font-size: 12px;
 	word-wrap: break-word;
 }
-.title {
-	font-style: italic;
-}
+
 
 .container {
-	font-size: 80px;
+	font-size: 20px;
 }
 
 .intro {
@@ -72,14 +70,7 @@ p {
 	font-size: 32px;
 }
 
-.navigation-buttons span {
-    border-radius: 3px;
-    cursor: pointer;
-    display: block;
-    height: 30px;
-    margin-top: 6px;
-    width: 30px;
-}
+
 
 .companyname {
 	font-size: 22px;
@@ -227,4 +218,37 @@ p {
   -webkit-border-radius:50%;
 	
 }
+.companyname {
+  display: inline-block;
+  font-size: 22px; 
+  border-style: solid;
+  border-color: black;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
 
+.location {
+  float: right;
+  font-size: 22px;
+  position: relative;
+  
+  border-style: solid;
+  border-color: black;
+}
+
+.title {
+  display: inline-block;
+  font-size: 15px; 
+  font-style: italic;
+  border-style: solid;
+  border-color: black;
+}
+
+.duration {
+  float: right;
+  font-size: 15px;
+  position: relative;
+  margin-top: 0px;
+  border-style: solid;
+  border-color: black;
+}
