@@ -68,9 +68,9 @@ p {
 
 #heading {
 	font-size: 32px;
+  padding: 0 0;
+  margin: 0 0;
 }
-
-
 
 .companyname {
 	font-size: 22px;
@@ -219,36 +219,38 @@ p {
 	
 }
 .companyname {
-  display: inline-block;
   font-size: 22px; 
-  border-style: solid;
-  border-color: black;
-  margin: 0px 0px;
-  padding: 0px 0px;
+  float: left;
+  
+  margin: 2px 0px;
 }
 
 .location {
   float: right;
   font-size: 22px;
-  position: relative;
   
-  border-style: solid;
-  border-color: black;
+  margin: 2px 0px;
 }
 
 .title {
-  display: inline-block;
   font-size: 15px; 
   font-style: italic;
-  border-style: solid;
-  border-color: black;
+  float: left;
+  
+  margin: 2px 0px;
 }
 
 .duration {
   float: right;
   font-size: 15px;
-  position: relative;
-  margin-top: 0px;
-  border-style: solid;
-  border-color: black;
+  
+  margin: 2px 0px;
+}
+
+.work {
+  padding: 4px 0 1px 0;
+}
+
+.career {
+  padding: 10px;
 }
