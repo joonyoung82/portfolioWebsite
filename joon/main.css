@@ -58,7 +58,11 @@ li {
   -webkit-border-radius: 25%;
   -moz-border-radius: 25%;
   border-radius: 15%;
-  margin-top: 40px;
+  margin-top: 35px;
+}
+
+#njitlogo {
+  margin-top: 0;
 }
 
 .jumbotron {
@@ -89,6 +93,10 @@ li {
 	font-size: 32px;
   padding: 0 0;
   margin: 0 0;
+}
+
+.workEnd {
+  padding-bottom: 25px;
 }
 
 .companyname {
