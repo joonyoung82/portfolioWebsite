@@ -6,24 +6,11 @@ body, html {
 
 }
 
-h2{
-	font-size: 15px;
-}
-h3{
-	font-size: 18px;
-}
-h4{
-	font-size: 15px;
-}
-h5{
-	font-size: 12px;
-}
-p {
+li {
 	font-family: Helvetica, serif;
-	font-size: 12px;
+	font-size: 16px;
 	word-wrap: break-word;
 }
-
 
 .container {
 	font-size: 20px;
@@ -49,10 +36,24 @@ p {
 }
 
 .worklogo {
-	border-style: solid;
-	border-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  border-radius: 15%;
+  margin-top: 40px;
 }
 
+.jumbotron {
+  background: linear-gradient(white, #e1e1e1) !important;
+  margin: 0px 0px 0px 0px !important;
+  padding-bottom: 10px !important;
+}
+
+.contactme {
+  background: linear-gradient(#e1e1e1, white) !important;
+  margin: 0px 0px 0px 0px !important;
+}
 .jumbotron h1{
 	text-align: center;
 }
@@ -185,8 +186,6 @@ p {
   font-weight: bold;
 }
 
-
-
 .img__overlay_resume {
   align-items: center;
   bottom: 0;
@@ -216,34 +215,31 @@ p {
   border-radius: 50%
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
-	
 }
 .companyname {
   font-size: 22px; 
   float: left;
-  
-  margin: 2px 0px;
+  padding-top: 15px;
+  margin: 0px 0px;
 }
 
 .location {
   float: right;
   font-size: 22px;
-  
-  margin: 2px 0px;
+  margin: 0px 0px;
+  padding-top: 15px;
 }
 
 .title {
-  font-size: 15px; 
+  font-size: 17px; 
   font-style: italic;
   float: left;
-  
   margin: 2px 0px;
 }
 
 .duration {
   float: right;
-  font-size: 15px;
-  
+  font-size: 17px;
   margin: 2px 0px;
 }
 
@@ -253,4 +249,13 @@ p {
 
 .career {
   padding: 10px;
+}
+
+.workdescription {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.skills {
+  background-color: #e1e1e1;
 }
