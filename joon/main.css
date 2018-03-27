@@ -5,9 +5,9 @@ body, html {
 	width: 100%;
 }
 
-li {
+#workP {
 	font-family: Helvetica, serif;
-	font-size: 16px;
+	font-size: 15px;
 	word-wrap: break-word;
 }
 
@@ -58,7 +58,7 @@ li {
   -webkit-border-radius: 25%;
   -moz-border-radius: 25%;
   border-radius: 15%;
-  margin-top: 35px;
+  
 }
 
 #njitlogo {
