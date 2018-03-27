@@ -23,7 +23,7 @@ li {
 }
 
 #intro h3 {
-  padding-top: 25%;
+  padding-top: 22%;
 }
 #intro h1 {
   padding-bottom: 4%;
@@ -87,12 +87,21 @@ li {
 
 .dicon {
 	padding: 20px;	
+  
+  filter: grayscale(35%);
+
+}
+
+.dicon:hover {
+  
+  filter: grayscale(0%);
 }
 
 #heading {
 	font-size: 32px;
   padding: 0 0;
   margin: 0 0;
+  padding: 10px;
 }
 
 .workEnd {
@@ -106,6 +115,11 @@ li {
 
 .career a:hover {
     text-decoration:none;
+}
+
+.education {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .img {
@@ -283,6 +297,6 @@ li {
 }
 
 .skills {
-  background-color: #d6d6d6;
+  background-color: #e1e1e1;
   padding-top: 15px;
 }
