@@ -368,3 +368,10 @@ body, html {
 .modal-content a {
   text-align: left;
 }
+
+.modal-content h5 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 15px;
+}
+
