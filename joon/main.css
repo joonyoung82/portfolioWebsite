@@ -14,12 +14,21 @@ body, html {
 .container {
 	font-size: 20px;
 }
-
-#intro h1 {
-  font-family: 'EB Garamond', serif;
-  padding-top: 24%;
-  padding-bottom: 4%;
-  font-size: 90px;
+@media (min-width: 480px){
+  #intro h1 {
+    font-family: 'EB Garamond', serif;
+    padding-top: 24%;
+    padding-bottom: 4%;
+    font-size: 90px;
+  }
+}
+@media (max-width: 480px){
+  #intro h1 {
+    font-family: 'EB Garamond', serif;
+    padding-top: 70%;
+    padding-bottom: 3%;
+    font-size: 90px;
+  }
 }
 
 #intro p{
@@ -43,12 +52,27 @@ body, html {
   padding: 10px;
 }
 
-.worklogo {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  -webkit-border-radius: 25%;
-  -moz-border-radius: 25%;
-  border-radius: 15%;
+@media (min-width: 480px){
+  .worklogo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    border-radius: 15%;
+  }
+}
+
+@media (max-width: 480px){
+  .worklogo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    border-radius: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 #njitlogo {
@@ -260,26 +284,52 @@ body, html {
   margin: 0px 0px;
 }
 
-.location {
-  float: right;
-  font-size: 22px;
-  margin: 0px 0px;
-  padding-top: 15px;
-}
 
+
+@media (min-width: 480px){
+  .location {
+    float: right;
+    font-size: 22px;
+    margin: 0px 0px;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 480px){
+  .location {
+    float: left;
+    font-size: 22px;
+    margin: 0px 0px;
+    padding-top: 15px;
+  }
+}
+@media (max-width: 480px){
+  .htclocation {
+    float: right !important;
+    font-size: 22px;
+    margin: 0px 0px;
+    padding-top: 15px;
+  }
+}
 .title {
   font-size: 17px; 
   font-style: italic;
   float: left;
   margin: 2px 0px;
 }
-
-.duration {
-  float: right;
-  font-size: 17px;
-  margin: 2px 0px;
+@media (min-width: 480px){
+  .duration {
+    float: right;
+    font-size: 17px;
+    margin: 2px 0px;
+  }
 }
-
+@media (max-width: 480px){
+.duration {
+    float: left;
+    font-size: 17px;
+    margin: 2px 0px;
+  }
+}
 .work {
   padding: 4px 0 1px 0;
 }
